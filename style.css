@@ -1,0 +1,127 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    color: #F0ECE5;
+    background-color: #161a30;
+    margin: 20px;
+
+}
+
+.navbar {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+    padding: 20px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: double;
+    text-shadow: 2px 4px 7px #000000;
+    animation: navbar 2s ease 0s 1 normal forwards;
+}
+
+@keyframes navbar {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.navbar a:hover {
+    background-color: #31304D;
+    border: solid white 5px;
+    border-radius: 15%;
+}
+
+.cv {
+    color: rgb(255, 255, 255);
+    text-decoration: underline solid;
+    text-decoration-color: white;
+    display: flex;
+    position: absolute;
+    right: 40%;
+    top: 23px;
+}
+
+.bienvenue {
+    color: #F0ECE5;
+    text-decoration: wavy;
+    text-decoration-color: #B6BBC4;
+    display: flex;
+    position: fixed;
+    top: 17%;
+}
+
+.textuseless {
+    color: #F0ECE5;
+    display: flex;
+    position: fixed;
+    top: 30%;
+}
+
+.selfie {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.etudes {
+    color: white;
+    text-decoration: underline solid;
+    text-decoration-color: white;
+    display: flex;
+    position: absolute;
+    right: 40%;
+    top: 22px;
+}
+
+.comm_etudes {
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 17%;
+}
+
+.mentions {
+    color: white;
+    display: flex;
+    position: fixed;
+    bottom: 3%;
+}
+
+.cadeau {
+    color: azure;
+    display: flex;
+    position: fixed;
+    text-decoration: underline solid;
+    font-style: oblique;
+    text-decoration-color: aliceblue;
+    top: 40%;
+    left: 3%;
+}
+
+.mclaren {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+.txtsenna {
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 37%;
+    right: 7%;
+    font-size: 115%;
+}
